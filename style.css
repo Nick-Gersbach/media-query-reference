@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+.container {
+    background: yellow;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 20%;
+    height: 20%;
+    background: red;
+}
+
+.box2 {
+    background: blue;
+}
+
+.box3 {
+    background: green;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    bottom: 0;
+    background: black;
+    color: white;
+}
+
+.footer-text {
+    padding-top: 2rem;
+}

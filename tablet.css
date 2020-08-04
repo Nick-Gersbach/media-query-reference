@@ -1,0 +1,18 @@
+    body, html {
+        background: green;
+        text-align: center;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+    }
+
+

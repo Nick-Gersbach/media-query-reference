@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 62.5%;
+    background: lightgray;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+.tablet {
+    display: none;
+}
+
+.mobile {
+    display: none;
+}
+
+/* Smartphones
+@media (min-width: 259px) and (max-width: 667px) {
+    body, html {
+        background: lightskyblue;
+        text-align: center;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+
+}
+
+Tablets
+@media (min-width: 668px) and (max-width: 1024px) {
+    body, html {
+        background: green;
+        text-align: center;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+    }
+
+
+} 
+
+
+
+
